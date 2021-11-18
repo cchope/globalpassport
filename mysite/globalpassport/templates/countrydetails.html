@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title> Global Passport Tracker </title>
+    <nav>  
+        <li> </li>    
+    </nav>
+</head>
+<body>
+    {% block content %}
+    <h1> {{ name }} </h1>
+    <img src="https://flagcdn.com/224x168/za.png" width="224"  height="168" alt="South Africa">
+    <h3> {{ capital }} </h3>
+    <h3> {{ currency }} </h3>
+    <h3> {{ code }} </h3>
+    <p>  {{ flag }} </p>
+    {% endblock %}
+
+    <a href="/visited"> Visited </a>        
+
+    <a href="/"> Want to Visit </a>
+
+    <a href="/"> Add to New List </a>
+    
+    
+</body>
+</html>
